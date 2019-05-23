@@ -1,11 +1,7 @@
 version: '3.3'
 
 volumes:
-    postgres_data: {}
-
-    portainer_data: {}
-
-
+  postgres_data: {}
 
 services:
   backend:
@@ -24,7 +20,10 @@ services:
     image: postgres:10-alpine
     volumes:
       - postgres_data:/var/lib/postgresql/data
-    env_file: .env
+    environment:
+      POSTGRES_PASSWORD: 3Jwswhbj
+      POSTGRES_USER: dbuser
+      POSTGRES_DB: db
 
   nginx:
     build:
