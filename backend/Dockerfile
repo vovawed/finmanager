@@ -10,5 +10,6 @@ COPY ./scripts/entrypoint.sh ./scripts/gunicorn.sh ./scripts/start.sh /
 
 RUN ["chmod", "+x", "/entrypoint.sh"]
 RUN ["chmod", "+x", "/start.sh"]
+RUN ["chmod", "+x", "/gunicorn.sh"]
 
 WORKDIR /app
