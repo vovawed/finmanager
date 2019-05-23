@@ -6,7 +6,7 @@ import router from './router'
 axios.defaults.xsrfCookieName = 'csrftoken'
 axios.defaults.xsrfHeaderName = 'X-CSRFToken'
 axios.defaults.headers['Authorization'] = "Token " + localStorage.getItem('authToken')
-axios.defaults.baseURL = '/api/'
+axios.defaults.baseURL = 'http://127.0.0.1:8000/api/'
 
 Vue.use(Vuex)
 
@@ -71,7 +71,7 @@ export default new Vuex.Store({
             localStorage.setItem('authToken', token)
             state.loggedIn = true
             axios.defaults.headers['Authorization'] = "Token " + localStorage.getItem('authToken')
-            router.push('categories')
+            router.push('dashboard')
         },
         setLoggedOut(state) {
             state.loggedIn = false

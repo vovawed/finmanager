@@ -46,7 +46,7 @@
     export default {
         name: "Dashboard",
         components: {DashboardCard},
-        data () {
+        data() {
             return {
                 balance: 0,
             }
@@ -64,6 +64,7 @@
         },
         created() {
             this.updateDashboard()
+            this.$Progress.finish()
         }
     }
 </script>

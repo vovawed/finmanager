@@ -81,11 +81,18 @@
             updateCategory() {
                 this.$store.dispatch('updateCategory', this.updatingCategory)
                 this.updateModalShow = false
+            },
+            beforeUpdate() {
+                this.$Progress.start()
+            },
+            updated() {
+                this.$Progress.finish()
             }
         },
-        mounted() {
+        created() {
             this.$store.dispatch('updateCategories')
-        }
+            this.$Progress.finish()
+        },
     }
 </script>
 

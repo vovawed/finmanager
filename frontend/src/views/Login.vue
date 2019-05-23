@@ -32,6 +32,9 @@
                 password: ''
             }
         },
+        created() {
+            this.$Progress.finish()
+        },
         components: {ButtonComponent, InputBox}
     }
 </script>

@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="8a9ec40b-9db7-42e6-a7de-eb202d394014" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/Categories.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/Categories.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/Dashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/Dashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/Transactions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/Transactions.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,95 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/finmanager/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nginx/dev.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/store.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose-prod.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/frontend/src/views/Transactions.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/scripts/start.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/scripts/entrypoint.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/scripts/gunicorn.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+            <state relative-caret-position="357">
+              <caret line="117" column="34" lean-forward="true" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -114,9 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -159,11 +82,9 @@
         <option value="$PROJECT_DIR$/backend/.gitignore" />
         <option value="$PROJECT_DIR$/frontend/src/components/NavLink.vue" />
         <option value="$PROJECT_DIR$/frontend/src/components/ButtonComponent.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/Login.vue" />
         <option value="$PROJECT_DIR$/frontend/src/components/DashBoardCard.vue" />
         <option value="$PROJECT_DIR$/backend/main/urls.py" />
         <option value="$PROJECT_DIR$/frontend/src/components/DashboardCard.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/Dashboard.vue" />
         <option value="$PROJECT_DIR$/frontend/src/components/categories/CategoryInput.vue" />
         <option value="$PROJECT_DIR$/frontend/src/components/transactions.vue" />
         <option value="$PROJECT_DIR$/backend/main/models.py" />
@@ -172,29 +93,32 @@
         <option value="$PROJECT_DIR$/backend/main/serializers.py" />
         <option value="$PROJECT_DIR$/frontend/src/api.js" />
         <option value="$PROJECT_DIR$/frontend/src/store/modules/auth.js" />
-        <option value="$PROJECT_DIR$/frontend/src/main.js" />
         <option value="$PROJECT_DIR$/frontend/src/router.js" />
-        <option value="$PROJECT_DIR$/frontend/src/App.vue" />
         <option value="$PROJECT_DIR$/frontend/src/components/categories/CategoryForm.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/Categories.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/views/Transactions.vue" />
         <option value="$PROJECT_DIR$/frontend/src/components/transactions/TransactionForm.vue" />
         <option value="$PROJECT_DIR$/backend/scripts/gunicorn.sh" />
         <option value="$PROJECT_DIR$/frontend/vue.config.js" />
         <option value="$PROJECT_DIR$/frontend/entrypoint.sh" />
         <option value="$PROJECT_DIR$/frontend/package.json" />
         <option value="$PROJECT_DIR$/backend/requirements.txt" />
-        <option value="$PROJECT_DIR$/frontend/src/store.js" />
         <option value="$PROJECT_DIR$/backend/finmanager/settings.py" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/backend/scripts/start.sh" />
         <option value="$PROJECT_DIR$/backend/scripts/entrypoint.sh" />
         <option value="$PROJECT_DIR$/docker-compose-prod.yml" />
         <option value="$PROJECT_DIR$/backend/Dockerfile" />
+        <option value="$PROJECT_DIR$/backend/finmanager/local_settings.py" />
+        <option value="$PROJECT_DIR$/frontend/src/main.js" />
+        <option value="$PROJECT_DIR$/frontend/src/views/Dashboard.vue" />
+        <option value="$PROJECT_DIR$/frontend/src/App.vue" />
+        <option value="$PROJECT_DIR$/frontend/src/views/Categories.vue" />
+        <option value="$PROJECT_DIR$/frontend/src/views/Login.vue" />
+        <option value="$PROJECT_DIR$/frontend/src/store.js" />
+        <option value="$PROJECT_DIR$/frontend/src/views/Transactions.vue" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="177" />
     <option name="y" value="30" />
     <option name="width" value="1024" />
@@ -217,30 +141,20 @@
             <path>
               <item name="finmanager" type="b2602c69:ProjectViewProjectNode" />
               <item name="finmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="finmanager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="finmanager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="finmanager" type="b2602c69:ProjectViewProjectNode" />
               <item name="finmanager" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="finmanager" type="b2602c69:ProjectViewProjectNode" />
@@ -326,17 +240,18 @@
       <workItem from="1558453254935" duration="1989000" />
       <workItem from="1558464981023" duration="10870000" />
       <workItem from="1558529556954" duration="35572000" />
+      <workItem from="1558623220998" duration="5251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95955000" />
+    <option name="totallyTimeSpent" value="101206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30600291" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30527085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -363,7 +278,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/node_modules/vue-router/dist/vue-router.esm.browser.js" />
     <entry file="file://$PROJECT_DIR$/.env" />
     <entry file="file://$PROJECT_DIR$/backend/apps/users/forms.py" />
     <entry file="file://$PROJECT_DIR$/backend/apps/users/apps.py" />
@@ -427,19 +341,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/About.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="52" />
-          <folding>
-            <element signature="e#780#828#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/views/About.vue" />
     <entry file="file://$PROJECT_DIR$/backend/main/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -464,13 +366,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/transactions.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/transactions.vue" />
     <entry file="file://$PROJECT_DIR$/backend/main/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -492,23 +388,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/store/modules/auth.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/Dashboard.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/store/modules/auth.js" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/api.js" />
     <entry file="file://$PROJECT_DIR$/backend/main/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -536,35 +417,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="76" lean-forward="true" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#439#496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/categories/CategoryForm.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/Categories.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="36" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -576,23 +432,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/views/Transactions.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/vue.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/entrypoint.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/entrypoint.sh" />
     <entry file="file://$PROJECT_DIR$/backend/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -600,34 +440,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/dev.conf">
+    <entry file="file://$PROJECT_DIR$/backend/finmanager/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="1305">
+          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/finmanager/settings.py">
+    <entry file="file://$PROJECT_DIR$/nginx/dev.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+        <state relative-caret-position="300">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -648,28 +492,88 @@
     <entry file="file://$PROJECT_DIR$/backend/scripts/gunicorn.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="22" />
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="210">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/finmanager/local_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#285#325#0" expanded="true" />
+            <element signature="e#439#496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/views/Dashboard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/views/Categories.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="91" column="19" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/views/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#780#828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/views/Transactions.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="117" column="34" lean-forward="true" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
         </state>
       </provider>
     </entry>

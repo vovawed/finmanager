@@ -113,9 +113,11 @@
                 this.updateModalShow = false
             }
         },
-        mounted() {
+        created() {
             this.$store.dispatch('updateCategories')
+            this.$Progress.set(50)
             this.$store.dispatch('updateTransactions')
+            this.$Progress.finish()
         }
     }
 </script>

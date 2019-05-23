@@ -32,6 +32,8 @@
                 </div>
             </div>
         </div>
+        <!-- set progressbar -->
+        <vue-progress-bar></vue-progress-bar>
     </div>
 </template>
 
@@ -39,11 +41,22 @@
     export default {
         name: 'App',
         created() {
+            this.$Progress.start()
+            //  hook the progress bar to start before we move router-view
+            this.$router.beforeEach((to, from, next) => {
+                this.$Progress.start()
+                next()
+            })
+
             if (localStorage.getItem('authToken')) {
                 this.$store.commit('setLoggined')
             } else {
                 this.$router.push('login')
             }
+        },
+        mounted() {
+            this.$Progress.finish()
+            console.log('app')
         }
     }
 </script>

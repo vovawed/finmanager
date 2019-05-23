@@ -17,6 +17,7 @@
     "luxon": "^1.15.0",
     "vue": "^2.6.10",
     "vue-datetime": "^1.0.0-beta.10",
+    "vue-progressbar": "^0.7.5",
     "vue-router": "^3.0.3",
     "vuejs-paginate": "^2.1.0",
     "vuex": "^3.0.1",
