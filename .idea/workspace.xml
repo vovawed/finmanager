@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9ec40b-9db7-42e6-a7de-eb202d394014" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/finmanager/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/finmanager/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/finmanager/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
@@ -46,20 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/scripts/entrypoint.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+            <state relative-caret-position="240">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -162,12 +153,13 @@
         <option value="$PROJECT_DIR$/frontend/src/views/Categories.vue" />
         <option value="$PROJECT_DIR$/frontend/src/views/Transactions.vue" />
         <option value="$PROJECT_DIR$/frontend/src/components/transactions/TransactionForm.vue" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/backend/scripts/entrypoint.sh" />
         <option value="$PROJECT_DIR$/backend/scripts/gunicorn.sh" />
         <option value="$PROJECT_DIR$/frontend/vue.config.js" />
         <option value="$PROJECT_DIR$/backend/Dockerfile" />
         <option value="$PROJECT_DIR$/backend/finmanager/settings.py" />
+        <option value="$PROJECT_DIR$/frontend/entrypoint.sh" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -297,12 +289,12 @@
       <workItem from="1558438885864" duration="4374000" />
       <workItem from="1558453254935" duration="1989000" />
       <workItem from="1558464981023" duration="10870000" />
-      <workItem from="1558529556954" duration="33109000" />
+      <workItem from="1558529556954" duration="33467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93492000" />
+    <option name="totallyTimeSpent" value="93850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
@@ -335,7 +327,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/src/store/index.js" />
     <entry file="file://$PROJECT_DIR$/frontend/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/frontend/node_modules/vue-router/dist/vue-router.js" />
     <entry file="file://$PROJECT_DIR$/frontend/node_modules/vue-router/dist/vue-router.esm.js" />
@@ -593,20 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/scripts/entrypoint.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -618,6 +595,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="125" column="28" lean-forward="true" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/scripts/entrypoint.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/entrypoint.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>

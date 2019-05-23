@@ -17,9 +17,8 @@ services:
 
   frontend:
     image: node:10-alpine
-    command: npm run serve
+    command: npm i && npm run serve
     volumes:
-      - ./.env:/app/.env:ro
       - ./frontend:/app
     working_dir: /app
     restart: on-failure
