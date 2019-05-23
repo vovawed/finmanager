@@ -5,9 +5,10 @@ COPY ./requirements.txt /
 RUN pip install -r ./requirements.txt
 
 # upload scripts
-COPY ./scripts/entrypoint.sh ./scripts/gunicorn.sh /
+COPY ./scripts/entrypoint.sh ./scripts/gunicorn.sh ./scripts/start.sh /
 
 
 RUN ["chmod", "+x", "/entrypoint.sh"]
+RUN ["chmod", "+x", "/start.sh"]
 
 WORKDIR /app
