@@ -15,4 +15,4 @@ class Transaction(models.Model):
     title = models.CharField('Title', max_length=50, blank=True, null=True, default=None)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     amount = models.FloatField('Amount')
-    date = models.DateTimeField('Date', auto_now_add=True)
+    date = models.DateTimeField('Date')

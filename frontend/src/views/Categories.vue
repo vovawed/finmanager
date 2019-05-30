@@ -93,6 +93,12 @@
             this.$store.dispatch('updateCategories')
             this.$Progress.finish()
         },
+        beforeUpdate() {
+            this.$Progress.start()
+        },
+        updated() {
+            this.$Progress.finish()
+        }
     }
 </script>
 

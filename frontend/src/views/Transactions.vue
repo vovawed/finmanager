@@ -118,6 +118,12 @@
             this.$Progress.set(50)
             this.$store.dispatch('updateTransactions')
             this.$Progress.finish()
+        },
+        beforeUpdate() {
+            this.$Progress.start()
+        },
+        updated() {
+            this.$Progress.finish()
         }
     }
 </script>

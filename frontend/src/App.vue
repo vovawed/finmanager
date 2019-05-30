@@ -54,10 +54,6 @@
                 this.$router.push('login')
             }
         },
-        mounted() {
-            this.$Progress.finish()
-            console.log('app')
-        }
     }
 </script>
 

@@ -55,6 +55,11 @@ library.add(faBars, faExchangeAlt, faCaretUp, faCaretDown, faChartBar, faChartLi
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 
+// HightCharts
+import HighchartsVue from 'highcharts-vue'
+Vue.use(HighchartsVue)
+
+
 Vue.config.productionTip = false
 
 new Vue({

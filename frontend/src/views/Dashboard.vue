@@ -35,6 +35,7 @@
 </template>
 
 <script>
+    // TODO: зробити норм дашбоард, або видалити це нахуй
     import axios from 'axios'
 
     axios.defaults.xsrfCookieName = 'csrftoken'

@@ -5,8 +5,12 @@ import router from './router'
 
 axios.defaults.xsrfCookieName = 'csrftoken'
 axios.defaults.xsrfHeaderName = 'X-CSRFToken'
-axios.defaults.headers['Authorization'] = "Token " + localStorage.getItem('authToken')
-axios.defaults.baseURL = 'http://127.0.0.1:8000/api/'
+axios.defaults.baseURL = 'http://127.0.0.1:8001/api/'
+
+const authToken = localStorage.getItem('authToken')
+if (authToken) {
+    axios.defaults.headers['Authorization'] = "Token " + authToken
+}
 
 Vue.use(Vuex)
 
@@ -71,7 +75,7 @@ export default new Vuex.Store({
             localStorage.setItem('authToken', token)
             state.loggedIn = true
             axios.defaults.headers['Authorization'] = "Token " + localStorage.getItem('authToken')
-            router.push('dashboard')
+            router.push('/')
         },
         setLoggedOut(state) {
             state.loggedIn = false
@@ -94,7 +98,7 @@ export default new Vuex.Store({
     actions: {
         // Auth
         login(context, payload) {
-            return axios.post('http://127.0.0.1:8000/api/auth/token/login/', payload)
+            return axios.post('auth/token/login/', payload)
                 .then(response => {
                     context.commit('setToken', response.data.auth_token)
                 })
@@ -103,7 +107,7 @@ export default new Vuex.Store({
                 })
         },
         logout(context) {
-            return axios.post('http://127.0.0.1:8000/api/auth/token/logout/')
+            return axios.post('auth/token/logout/')
                 .then(response => {
                     context.commit('setLoggedOut')
                     delete axios.defaults.headers['Authorization']
@@ -145,16 +149,18 @@ export default new Vuex.Store({
                 })
         },
         deleteCategory(context, pk) {
+            this._vm.$Progress.start()
             return axios.delete('categories/' + pk + '/')
                 .then(response => {
                     context.dispatch('updateCategories')
+                    this._vm.$Progress.finish()
                 })
                 .catch(e => {
                     console.log(e)
                 })
         },
         // Transactions
-        updateTransactions(context, page=1) {
+        updateTransactions(context, page = 1) {
             return axios.get('transactions/?limit=10&offset=' + (page * 10 - 10))
                 .then(response => {
                     context.commit('setTransactions', response.data.results)
@@ -175,7 +181,7 @@ export default new Vuex.Store({
         },
         updateTransaction(context, payload) {
             return axios.put('transactions/' + payload.pk + '/', {
-                title: payload.title, category: payload.category, data: payload.date, amount: payload.amount
+                title: payload.title, category: payload.category, date: payload.date, amount: payload.amount
             })
                 .then(response => {
                     context.dispatch('updateTransactions')
@@ -185,9 +191,21 @@ export default new Vuex.Store({
                 })
         },
         deleteTransaction(context, pk) {
+            this._vm.$Progress.start()
             return axios.delete('transactions/' + pk + '/')
                 .then(response => {
                     context.dispatch('updateTransactions')
+                    this._vm.$Progress.finish()
+                })
+                .catch(e => {
+                    console.log(e)
+                })
+        },
+        // Charts
+        getChart(context, payload) {
+            return axios.post('chart/', payload)
+                .then(response => {
+                    return response.data
                 })
                 .catch(e => {
                     console.log(e)

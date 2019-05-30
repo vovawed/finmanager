@@ -36,10 +36,10 @@ export default new Router({
             }
         },
         {
-            path: '/',
+            path: '/charts',
             name: 'charts',
             component: function () {
-                return import(/* webpackChunkName: "about" */ './views/Dashboard.vue')
+                return import(/* webpackChunkName: "about" */ './views/Charts.vue')
             }
         },
     ]
