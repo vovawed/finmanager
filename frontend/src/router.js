@@ -29,13 +29,6 @@ export default new Router({
             }
         },
         {
-            path: '/',
-            name: 'dashboard',
-            component: function () {
-                return import(/* webpackChunkName: "about" */ './views/Dashboard.vue')
-            }
-        },
-        {
             path: '/charts',
             name: 'charts',
             component: function () {

@@ -5,6 +5,7 @@ from rest_framework.generics import ListAPIView
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from django.db.models import Sum
+from datetime import datetime, timedelta
 
 
 class TransactionViewSet(viewsets.ModelViewSet):
@@ -19,20 +20,6 @@ class CategoryViewSet(viewsets.ModelViewSet):
 
     def perform_create(self, serializer):
         serializer.save(user=self.request.user)
-
-
-class UserDashboard(APIView):
-    def get_queryset(self, user):
-        return Transaction.objects.filter(category__user=user)
-
-    def user_balance(self, queryset):
-        return queryset.aggregate(Sum('amount'))['amount__sum']
-
-    def get(self, request, format=None):
-        queryset = self.get_queryset(request.user)
-        return Response({
-            'balance': self.user_balance(queryset)
-        })
 
 
 class PieChartData(APIView):

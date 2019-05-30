@@ -5,10 +5,6 @@
                 <div class="col-lg-3" id="nav" v-if="$store.state.loggedIn">
                     <h3 id="brand-name">FinManager</h3>
                     <div class="nav-menu">
-                        <router-link to="/" class="nav-element">
-                            <font-awesome-icon icon="chart-line"/>
-                            Dashboard
-                        </router-link>
                         <router-link to="/categories" class="nav-element">
                             <font-awesome-icon icon="bars"/>
                             Categories
@@ -60,12 +56,6 @@
 <style lang="less">
     @import (css) url('https://fonts.googleapis.com/css?family=Varela+Round');
 
-    @font-color: #212529;
-    @main-color: #4f69c2;
-    @main-color-dark: #3F549B;
-    @red-color: #d62839;
-    @muted-color: #6c757d;
-
     html, body {
         background: #eee;
     }
@@ -97,12 +87,11 @@
             font-family: 'Open Sans', sans-serif;
             display: block;
             letter-spacing: 0.5pt;
-            color: @font-color;
+            color: #212529;
             border-radius: 5px;
 
             &:hover {
                 background: #dddddd;
-                //color: @main-color-dark;
                 text-decoration: none;
             }
 
