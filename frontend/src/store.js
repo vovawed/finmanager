@@ -202,8 +202,8 @@ export default new Vuex.Store({
                 })
         },
         // Charts
-        getChart(context, payload) {
-            return axios.post('chart/', payload)
+        getLineChart(context, payload) {
+            return axios.post('chart/line/', payload)
                 .then(response => {
                     return response.data
                 })

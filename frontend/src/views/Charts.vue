@@ -76,10 +76,7 @@
                         text: 'Chart'
                     },
                     series: [{
-                        data: [
-                            [new Date("2014-07-09T12:30:41Z").getTime(), 1],
-                            [new Date("2015-07-09T12:30:41Z").getTime(), 3],
-                        ]
+                        data: []
                     }],
                     xAxis: {
                         type: 'datetime'
@@ -89,7 +86,7 @@
         },
         methods: {
             generateChart() {
-                this.$store.dispatch('getChart', {
+                this.$store.dispatch('getLineChart', {
                     transactionType: this.newChartData.transactionType,
                     dateFrom: this.newChartData.dateFrom,
                     dateTo: this.newChartData.dateTo,
@@ -100,11 +97,12 @@
                         let result = []
 
                         data.forEach((d) => {
-                            result.push([new Date(d.date).getTime(), d.amount])
+                            result.push({x: new Date(d.date).getTime(), y: d.amount, name: d.title})
                         })
 
                         console.log(result)
 
+                        this.chartOptions.chart.type = 'line'
                         this.chartOptions.series = [{data: result}]
                     }
                 })

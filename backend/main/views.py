@@ -36,7 +36,7 @@ class UserDashboard(APIView):
         })
 
 
-class ChartData(ListAPIView):
+class LineChartData(ListAPIView):
     serializer_class = TransactionSerializer
     pagination_class = None  # Disable paginate
 
