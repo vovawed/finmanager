@@ -5,7 +5,6 @@ from rest_framework.generics import ListAPIView
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from django.db.models import Sum
-from django.utils.dateparse import parse_date
 
 
 class TransactionViewSet(viewsets.ModelViewSet):
@@ -36,6 +35,20 @@ class UserDashboard(APIView):
         })
 
 
+class PieChartData(APIView):
+    def post(self, request, format=None):
+        queryset = Category.objects.all()
+
+        # Categories
+        if not self.request.data['allCategories']:
+            categories = self.request.data['categories']
+            queryset = queryset.filter(pk__in=categories)
+
+        return Response(
+            [[c.title, c.sum_of_transitions()] for c in queryset]
+        )
+
+
 class LineChartData(ListAPIView):
     serializer_class = TransactionSerializer
     pagination_class = None  # Disable paginate
@@ -45,7 +58,7 @@ class LineChartData(ListAPIView):
         This view should return a list of all the purchases
         for the currently authenticated user.
         """
-        queryset = Transaction.objects
+        queryset = Transaction.objects.all()
 
         transaction_type = self.request.data['transactionType']
         queryset = queryset.filter(category__transaction_type=transaction_type)

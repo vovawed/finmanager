@@ -211,5 +211,14 @@ export default new Vuex.Store({
                     console.log(e)
                 })
         },
+        getPieChart(context, payload) {
+            return axios.post('chart/pie/', payload)
+                .then(response => {
+                    return response.data
+                })
+                .catch(e => {
+                    console.log(e)
+                })
+        },
     }
 })

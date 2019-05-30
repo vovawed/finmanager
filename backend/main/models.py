@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.db.models import Sum
 
 
 class Category(models.Model):
@@ -9,6 +10,9 @@ class Category(models.Model):
         ('i', 'Income'),
         ('e', 'Expense')
     ))
+
+    def sum_of_transitions(self):
+        return Transaction.objects.filter(category=self).aggregate(Sum('amount'))['amount__sum']
 
 
 class Transaction(models.Model):
